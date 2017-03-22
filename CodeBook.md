@@ -5,11 +5,11 @@
 
 <p>Information about the variables, data and transformations used in the course project for the Johns Hopkins Getting and Cleaning Data course.</p>
 
-<h3>Source Data</h3>
+<h2>Source Data</h2>
 
 <p>(https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)</p>
 
-<h4>Activities</h4>
+<h2>Activities</h2>
 
 <p>The script run_Analysis.R performs the 5 steps described in the course project's definition.
 1.	First, all the similar data is merged using the rbind() function. By similar, we address those files having the same number of columns and referring to the same entities.</p>
@@ -19,7 +19,7 @@
 <p>5.	Finally, we generate a new dataset with all the average measures for each subject and activity type (30 subjects * <p>6 activities = 180 rows). The output file is called averages_data.txt, and uploaded to this repository.
 </p>
 
-<h5>Variables</h5>
+<h2>Variables</h2>
 
 <p>x_train, y_train, x_test, y_test, subject_train and subject_test contain the data from the downloaded files.
 x_data, y_data and subject_data merge the previous datasets to further analysis.</p>
